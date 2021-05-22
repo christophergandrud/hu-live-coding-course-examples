@@ -1,4 +1,4 @@
-# Monte Carlo Simulation Exercises
+# Monte Carlo Simulation Exercises (Example Answers)
 # For HU Dynamics
 
 xfun::pkg_attach2("mcreplicate", "tidyverse")

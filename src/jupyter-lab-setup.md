@@ -15,4 +15,6 @@ install.packages('IRkernel')
 IRkernel::installspec()
 ```
 
+(Extra: If you also want to use Jupyter Lab in [VS Code](https://code.visualstudio.com/) you need to also install `languageserver`).
+
 4. Launch Jupyter Lab and select R notebook. To launch Jupyter Lab type `jupyter lab` into your terminal.

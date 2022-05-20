@@ -22,7 +22,7 @@ one_sim_p_value <- function(n = 1e3, control_prob = 0.1, rel_effect = 0.01) {
 }
 
 # Repeatedly simulate
-pv <- mc_replicate(1e2, one_sim_p_value())
+pv <- mc_replicate(2e3, one_sim_p_value())
 hist(pv)
 
 #' Power analysis via simulation

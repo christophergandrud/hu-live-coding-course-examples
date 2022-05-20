@@ -88,3 +88,22 @@ three_list <- list(A = rnorm(n = 1e5, mean = 1),
                    C = rnorm(n = 1e5, mean = 5))
 library(parallel)
 mclapply(three_list, mean, mc.cores = 3)
+
+
+## Lesson exercise
+
+# Create data frame with numeric and character columns
+means_df
+
+for (i in seq_along(means_df)) {
+  # extract column
+  tmp <- means_df[, i]
+  if (is.numeric(tmp)) {
+    message(sd(tmp))
+  }
+  else if (is.character(tmp)) {
+    message("This is a character vector")
+  }
+  else
+    warning("Not Character or Numeric")
+}

@@ -12,6 +12,8 @@
 
     - On MacOS with [Homebrew](https://brew.sh/) in the Terminal: `brew install python3`
 
+    - Note where Python is installed with `which python3`. You will need this for step 4.
+
 3. Install Tabula
 
     - In the Terminal: `pip3 install tabula-py`
@@ -20,4 +22,4 @@
 
     - xfun::pkg_attach2("reticulate")
 
-    - The first time you import a Python library, reticulate will ask if you want to install miniconda. Select `Y`.
+    - use_python("DIRECTORY OF PYTHON INSTALLATION FROM STEP 2")

@@ -20,6 +20,6 @@
 
 4. In R, install the *reticulate* package
 
-    - xfun::pkg_attach2("reticulate")
+    - `xfun::pkg_attach2("reticulate")`
 
-    - use_python("DIRECTORY OF PYTHON INSTALLATION FROM STEP 2")
+    - `use_python("DIRECTORY OF PYTHON INSTALLATION FROM STEP 2")`

@@ -13,3 +13,4 @@ table_list <- tabula$read_pdf("https://www.visionofhumanity.org/wp-content/uploa
                         user_agent="Mozilla/5.0", pages="10")
 
 df <- table_list[[1]] # Extract data table from list
+head(df)

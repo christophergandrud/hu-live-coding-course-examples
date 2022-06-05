@@ -12,3 +12,5 @@ person_df <- data.frame(
   street = person_list$address$streetAddress,
   city = person_list$address$city
 )
+
+head(person_df)

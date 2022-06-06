@@ -1,4 +1,5 @@
 # Tabulariser examples
+######## DEPRECATED #############
 
 xfun::pkg_attach2("tabulizer")
 

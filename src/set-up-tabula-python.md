@@ -18,8 +18,10 @@
 
     - In the Terminal: `pip3 install tabula-py`
 
-4. In R, install the *reticulate* package
+4. In R, install the *reticulate* package. This package allows you to call Python functions from R.
 
     - `xfun::pkg_attach2("reticulate")`
 
     - `use_python("DIRECTORY OF PYTHON INSTALLATION FROM STEP 2")`
+
+For an example of how to use tabula with reticulate in R, see the *tabula-reticulate-example.R*.

@@ -14,7 +14,7 @@
 
     - On Windows, in the Terminal (Powershell) type `python3`. This will direct you to the Microsoft Store to install Python3. 
 
-    - Note the file path to Python with `which python3`. On Windows, use the Search to find Python3, right click to open in location to see the file path. You will need this for step 4.
+    - Note the file path to Python with `which python3`. You will need this for step 4.
 
 3. Install Tabula
 

@@ -12,7 +12,9 @@
 
     - On MacOS with [Homebrew](https://brew.sh/) in the Terminal: `brew install python3`
 
-    - Note where Python is installed with `which python3`. You will need this for step 4.
+    - On Windows, in the Terminal (Powershell) type `python3`. This will direct you to the Microsoft Store to install Python3. 
+
+    - Note where Python is installed with `which python3`. On Windows, use the Search to find Python3, right click to open in location to see the file path. You will need this for step 4.
 
 3. Install Tabula
 
